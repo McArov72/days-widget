@@ -98,7 +98,7 @@ class DaysWidget : AppWidgetProvider() {
                 set(Calendar.MINUTE, 0)
                 set(Calendar.SECOND, 5)
             }
-            alarm.set(AlarmManager.RTC, cal.timeInMillis, pi)
+            alarm.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, cal.timeInMillis, pi)
         }
     }
 }
