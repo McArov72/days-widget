@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:textColor="#FFFFFF"
-        android:textSize="48sp" />
+        android:textSize="41sp" />
 
     <TextView
         android:id="@+id/tvLabel"
@@ -21,5 +21,5 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
         android:textColor="#CCFFFFFF"
-        android:textSize="16sp" />
+        android:textSize="14sp" />
 </LinearLayout>
