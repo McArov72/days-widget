@@ -11,14 +11,15 @@
         android:id="@+id/tvDays"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
         android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        android:textStyle="bold" />
+        android:textSize="48sp" />
 
     <TextView
         android:id="@+id/tvLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:textSize="14sp" />
+        android:fontFamily="sans-serif"
+        android:textColor="#CCFFFFFF"
+        android:textSize="16sp" />
 </LinearLayout>
